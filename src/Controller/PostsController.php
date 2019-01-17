@@ -21,6 +21,8 @@ class PostsController extends AppController
         'index',
         'view'
         ]);
+
+        $this->loadModel('Comments');
     }
 
     /**
